@@ -109,7 +109,7 @@ class _authScreensState extends State<authScreens> {
                         ),
                         child: Text(
                           'Continuer'.toUpperCase(),
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Colors.orange),
                         ),
                       )
                     ],
