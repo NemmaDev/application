@@ -76,7 +76,7 @@ class _authScreensState extends State<authScreens> {
                         onChanged: (value) => setState(() => _email = value),
                         validator: (value) =>
                             value!.isEmpty || !emailRegex.hasMatch(value)
-                                ? 'please entrer un email valide'
+                                ? 'please enter valid email'
                                 : null,
                         decoration: InputDecoration(
                             hintText: 'Ex: sanfonemmata@gmail.com',
